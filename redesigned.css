@@ -405,7 +405,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2vh;
+    margin-bottom: -2vh;
     visibility: hidden;
     height: 0px;
   }
