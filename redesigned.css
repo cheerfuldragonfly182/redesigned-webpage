@@ -237,8 +237,7 @@ body {
     border-width: 4px;
     z-index: 1000;
     position: relative;
-    left: 4px;
-    margin-left: -8px;
+    left: 0px;
   }
 
   #hamburgerIcon {
@@ -342,6 +341,23 @@ body {
     font-size: 30px;
     margin-left: -30px;
     margin-right: 5px;
+  }
+
+  #hamburgerIcon:hover {
+    background-color: rgba(139, 175, 248, 0.2);
+    z-index: 1000;
+  }
+
+  #hamburgerIcon:active {
+    outline-color: #8baff8;
+    outline-width: 1px;
+    outline-style: solid;
+    border-color: #8baff8;
+    border-style: solid;
+    z-index: 1000;
+    position: relative;
+    margin-left: -33px;
+    margin-right: 3px;
   }
 
   .headerRightButtons {
